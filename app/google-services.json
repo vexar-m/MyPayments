@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "929547810947",
+    "project_id": "com-devdd-mypayments-64643",
+    "storage_bucket": "com-devdd-mypayments-64643.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:929547810947:android:1f1c563ce442dcecbe03b6",
+        "android_client_info": {
+          "package_name": "com.devdd.mypayments"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQQAt2XkjnG8YAqI7v9upwcn61KY-mDTA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

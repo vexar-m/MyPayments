@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Мои Платежи</string>
+    <string name="nav_home">Главная</string>
+    <string name="nav_analytics">Аналитика</string>
+    <string name="nav_settings">Настройки</string>
+
+    <string name="type_subscriptions">Подписки</string>
+    <string name="type_bills">Ежемесячные платежи</string>
+    <string name="type_games">Оплаты в играх</string>
+    <string name="type_all">Все</string>
+
+    <string name="add_payment">Добавить платеж</string>
+    <string name="select_category">Выберите тип</string>
+    <string name="subscription_desc">Онлайн сервисы, AI, музыка, кино с датой начала/окончания и временем</string>
+    <string name="bills_desc">Коммунальные платежи, ЖКХ, интернет, связь и аренда</string>
+    <string name="games_desc">Укажите точный лимит расходов в месяц для любимых игр и платформ</string>
+
+    <string name="presets_ai">ИИ и Нейросети</string>
+    <string name="presets_music">Музыка</string>
+    <string name="presets_movies">Фильмы и Кино</string>
+    <string name="presets_cloud">Облако и Сервисы</string>
+    <string name="presets_manual">Ручной выбор</string>
+    <string name="presets_games">Игровые площадки</string>
+    <string name="presets_utilities">ЖКХ и Услуги</string>
+
+    <string name="field_name">Название сервиса или платежа</string>
+    <string name="field_amount">Сумма в месяц</string>
+    <string name="field_currency">Валюта</string>
+    <string name="field_start_date">Дата начала</string>
+    <string name="field_end_date">Когда закончится подписка</string>
+    <string name="field_no_end_date">Без даты окончания (Автопродление)</string>
+
+    <string name="field_payment_day">День оплаты в месяце</string>
+    <string name="field_payment_time">Время оплаты</string>
+    <string name="field_icon">Выберите иконку</string>
+    <string name="field_color">Цветовой акцент</string>
+    <string name="field_notes">Заметки (опционально)</string>
+    <string name="field_game_budget">Сколько готов тратить за месяц</string>
+
+    <string name="btn_save">Сохранить</string>
+    <string name="btn_cancel">Отмена</string>
+    <string name="btn_delete">Удалить</string>
+    <string name="btn_edit">Редактировать</string>
+    <string name="btn_mark_paid">Отметить оплаченным</string>
+    <string name="btn_mark_unpaid">Снять отметку оплаты</string>
+
+    <string name="status_paid">Оплачено</string>
+    <string name="status_unpaid">Скоро оплата</string>
+    <string name="status_overdue">Просрочено</string>
+    <string name="expires_on">Закончится: %s</string>
+    <string name="renews_on">Оплата %d-го числа в %s</string>
+    <string name="limit_usage">Лимит: %s в месяц</string>
+
+    <string name="summary_total_monthly">Итого расходов за месяц</string>
+    <string name="summary_subscriptions">Подписки</string>
+    <string name="summary_bills">ЖКХ и Платежи</string>
+    <string name="summary_games">Лимиты на игры</string>
+    <string name="upcoming_payments">Предстоящие платежи</string>
+    <string name="due_today">Оплата сегодня!</string>
+    <string name="due_in_days">Через %d дн.</string>
+    <string name="no_payments_yet">Платежи еще не добавлены. Нажмите +, чтобы добавить!</string>
+
+    <string name="settings_title">Настройки</string>
+    <string name="settings_language">Язык приложения</string>
+    <string name="settings_lang_ru">Русский</string>
+    <string name="settings_lang_en">English</string>
+
+    <string name="settings_theme">Тема оформления</string>
+    <string name="settings_theme_system">Системная</string>
+    <string name="settings_theme_light">Светлая</string>
+    <string name="settings_theme_dark">Тёмная</string>
+
+    <string name="settings_accent">Цветовой акцент (Material)</string>
+    <string name="settings_accent_wallpaper">Из обоев (Dynamic Wallpaper)</string>
+    <string name="settings_accent_purple">Яркий пурпурный</string>
+    <string name="settings_accent_blue">Морской синий</string>
+    <string name="settings_accent_emerald">Изумрудно-зеленый</string>
+    <string name="settings_accent_coral">Закатный коралловый</string>
+    <string name="settings_accent_gold">Янтарно-золотой</string>
+
+    <string name="settings_battery">Отключить экономию энергии</string>
+    <string name="settings_battery_desc">Отключите оптимизацию батареи для приложения, чтобы пуш-уведомления о платежах присылались вовремя в фоновом режиме.</string>
+    <string name="settings_battery_btn">Отключить экономию энергии</string>
+    <string name="settings_battery_ok">Экономия отключена (Уведомления разрешены)</string>
+    <string name="settings_battery_needed">Экономия включена (Может задерживать пуши)</string>
+
+    <string name="settings_notif">Пуш-уведомления</string>
+    <string name="settings_notif_enable">Включить напоминания о платежах</string>
+    <string name="settings_notif_test">Отправить тестовое уведомление</string>
+    <string name="notif_test_title">Тест уведомлений «Мои Платежи»</string>
+    <string name="notif_test_body">Пуш-уведомления работают отлично! Вы будете получать напоминания перед оплатой.</string>
+    <string name="notif_payment_due_title">Срок оплаты: %s</string>
+    <string name="notif_payment_due_body">Ваш платеж %s на сумму %s назначен на сегодня в %s.</string>
+
+    <string name="delete_confirm_title">Удалить платеж?</string>
+    <string name="delete_confirm_body">Вы действительно хотите удалить «%s»?</string>
+</resources>

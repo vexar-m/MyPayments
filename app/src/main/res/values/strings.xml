@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Payments</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_analytics">Analytics</string>
+    <string name="nav_settings">Settings</string>
+
+    <string name="type_subscriptions">Subscriptions</string>
+    <string name="type_bills">Monthly Bills</string>
+    <string name="type_games">In-Game Purchases</string>
+    <string name="type_all">All</string>
+
+    <string name="add_payment">Add Payment</string>
+    <string name="select_category">Choose Type</string>
+    <string name="subscription_desc">Online services, AI, music, cinema with start/end date and cycle time</string>
+    <string name="bills_desc">Utilities (rent, electricity, internet, phone)</string>
+    <string name="games_desc">Set a spending limit for your favorite gaming platforms or games</string>
+
+    <string name="presets_ai">AI Services</string>
+    <string name="presets_music">Music</string>
+    <string name="presets_movies">Movies &amp; TV</string>
+    <string name="presets_cloud">Cloud &amp; VPN</string>
+    <string name="presets_manual">Manual Entry</string>
+    <string name="presets_games">Game Platforms</string>
+    <string name="presets_utilities">Utilities (Housing)</string>
+
+    <string name="field_name">Service or Payment Name</string>
+    <string name="field_amount">Amount per Month</string>
+    <string name="field_currency">Currency</string>
+    <string name="field_start_date">Start Date</string>
+    <string name="field_end_date">Subscription End Date</string>
+    <string name="field_no_end_date">No End Date (Auto-renewing)</string>
+
+    <string name="field_payment_day">Payment Day of Month</string>
+    <string name="field_payment_time">Payment Time</string>
+    <string name="field_icon">Choose Icon</string>
+    <string name="field_color">Accent Color</string>
+    <string name="field_notes">Notes (optional)</string>
+    <string name="field_game_budget">Monthly Gaming Budget Limit</string>
+
+    <string name="btn_save">Save</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_delete">Delete</string>
+    <string name="btn_edit">Edit</string>
+    <string name="btn_mark_paid">Mark as Paid</string>
+    <string name="btn_mark_unpaid">Mark as Unpaid</string>
+
+    <string name="status_paid">Paid</string>
+    <string name="status_unpaid">Due Soon</string>
+    <string name="status_overdue">Overdue</string>
+    <string name="expires_on">Expires: %s</string>
+    <string name="renews_on">Renews on day %d at %s</string>
+    <string name="limit_usage">Budget limit: %s per month</string>
+
+    <string name="summary_total_monthly">Total Monthly Expenses</string>
+    <string name="summary_subscriptions">Subscriptions</string>
+    <string name="summary_bills">Bills &amp; Utilities</string>
+    <string name="summary_games">In-game Limits</string>
+    <string name="upcoming_payments">Upcoming Payments</string>
+    <string name="due_today">Due Today!</string>
+    <string name="due_in_days">In %d days</string>
+    <string name="no_payments_yet">No expense payments added yet. Tap + to create one!</string>
+
+    <string name="settings_title">Settings</string>
+    <string name="settings_language">App Language</string>
+    <string name="settings_lang_ru">Русский (Russian)</string>
+    <string name="settings_lang_en">English</string>
+
+    <string name="settings_theme">Theme Mode</string>
+    <string name="settings_theme_system">System Default</string>
+    <string name="settings_theme_light">Light</string>
+    <string name="settings_theme_dark">Dark</string>
+
+    <string name="settings_accent">Dynamic Accent Color</string>
+    <string name="settings_accent_wallpaper">Wallpaper Colors (Material You)</string>
+    <string name="settings_accent_purple">Expressive Purple</string>
+    <string name="settings_accent_blue">Ocean Blue</string>
+    <string name="settings_accent_emerald">Emerald Green</string>
+    <string name="settings_accent_coral">Sunset Coral</string>
+    <string name="settings_accent_gold">Amber Gold</string>
+
+    <string name="settings_battery">Battery Saver / Power Management</string>
+    <string name="settings_battery_desc">Disable battery optimization so payment notification alarms arrive reliably without delay.</string>
+    <string name="settings_battery_btn">Disable Power Saver</string>
+    <string name="settings_battery_ok">Optimization Disabled (Notifications Allowed)</string>
+    <string name="settings_battery_needed">Optimization Active (May suppress notifications)</string>
+
+    <string name="settings_notif">Push Notifications</string>
+    <string name="settings_notif_enable">Enable Payment Reminders</string>
+    <string name="settings_notif_test">Send Test Notification</string>
+    <string name="notif_test_title">My Payments Reminder Test</string>
+    <string name="notif_test_body">Notifications are working properly! You will be notified before payment dates.</string>
+    <string name="notif_payment_due_title">Payment Due: %s</string>
+    <string name="notif_payment_due_body">Your subscription/bill of %s is due today at %s.</string>
+
+    <string name="delete_confirm_title">Delete Item?</string>
+    <string name="delete_confirm_body">Are you sure you want to remove \"%s\"?</string>
+</resources>
